@@ -7,17 +7,17 @@ Y = int(input("ingrese la coordenada y: "))
 # Processing
 if X == 0:
     if Y == 0:
-        print("Esta en el origen del plano cartesiano(0,0)")
+        print("La coordenada" , (X,Y) , "esta en el origen")
     else:
-        print("Estas en el eje Y")
+        print("La coordenada" , (X,Y) , "esta en el eje Y")
 elif Y == 0:
-    print("Estas en el eje X")
+    print("La coordenada" , (X,Y) , "esta en el eje X")
 elif X > 0:
     if Y > 0:
-        print("Estas en el cuadrante 1")
+        print("La coordenada" , (X,Y) , "estas en el cuadrante 1")
     else:
-        print("Estas en el cuadrante 4")
+        print("La coordenada" , (X,Y) , "estas en el cuadrante 4")
 elif Y < 0:
-    print("Estas en el cuadrante 3")
+    print("La coordenada" , (X,Y) , "estas en el cuadrante 3")
 else:
-    print("Estas en el cuadrante 2")
+    print("La coordenada" , (X,Y) , "estas en el cuadrante 2")
