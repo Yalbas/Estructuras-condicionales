@@ -2,12 +2,14 @@
 
 # Input
 Salario= int(input("¿Cual es tu salario actual? "))
-Deuda= int(input("¿Tienes alguna tipo de deuda?"))
+Deuda= input("¿Tienes alguna tipo de deuda? ")
 
 # Processing
 if Salario >= 945200:
     if Deuda == "no":
         print ("Su prestamo a sido aprobado")
+    else:
+        print ("Su prestamo a sido denegado")
 else:
     print ("Su prestamo a sido denegado")
 
