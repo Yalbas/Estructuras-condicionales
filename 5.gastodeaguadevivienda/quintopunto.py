@@ -9,9 +9,9 @@ Gasto_agua = int(input("Digite el gasto de agua en su vivienda: "))
 if Gasto_agua < 50:
     Pago = 10000
 elif Gasto_agua < 200:
-    Pago = Gasto_agua*2000
+    Pago = Gasto_agua *2000+10000
 else:
-    Pago = Gasto_agua*3000
+    Pago = Gasto_agua*3000+10000
 
 # Output 
 
